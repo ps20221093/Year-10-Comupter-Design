@@ -4,12 +4,12 @@ var b2;
 function setup()
 {
 	createCanvas(500,500);
-	b1 = new Button(10,10,100,25);
+	b1 = new Button(10,10,130,25);
 	b1.setText("Take me home dad");
 	b1.setTextOver("GO");
 	b1.setButtonOverFill(255,255,50);
 
-	b2 = new Button(10,100,100,25);
+	b2 = new Button(10,100,130,25);
 
 }
 
