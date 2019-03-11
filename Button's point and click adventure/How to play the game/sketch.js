@@ -4,9 +4,9 @@ var b2;
 function setup()
 {
 	createCanvas(500,500);
-	b1 = new Button(10,10,100,25);
-	b1.setText("Easy");
-	b1.setTextOver("LeTs A gO");
+	b1 = new Button(10,10,150,25);
+	b1.setText("Take me home");
+	b1.setTextOver("To the place I belong");
 	b1.setButtonOverFill(255,255,50);
 
 	b2 = new Button(10,100,130,25);
@@ -17,15 +17,9 @@ function setup()
 
 	b3.setText("High scores")
 
-	b4 = new Button(10,280,100,25)
+	b4 = new Button(10,)
 
-	b4.setText ("How to play")
-
-	b5 = new Button (10,370,100,25)
-
-	b5.setText ("Introduction")
-
-
+	b4.setText
 
 }
 
@@ -34,14 +28,10 @@ function draw()
 	background(125,125,125);
 
 	b1.showButton();
-	b2.showButton();
-	b3.showButton();
-	b4.showButton();
-	b5.showButton();
 
 	if (b1.getButtonState() == 1)
 	{
-		window.open("Easy/Easy.html","_self");
+		window.open("../buttonList.html","_self");
 	}
 	if (b2.getButtonState() == 1)
 	{
@@ -53,16 +43,5 @@ function draw()
 		window.open("Highscores/Highscores.html","_self");
 
 	}
-	if (b4.getButtonState() == 1)
-	{
-		window.open("How to play the game/How we play.html","_self");
-
-	}
-	if (b5.getButtonState() == 1)
-	{
-		window.open("Introduction/Introduction.html","_self");
-
-	}
-
 
 }
